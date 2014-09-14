@@ -368,5 +368,6 @@ FORMS += ui/scriptdialog.ui \
     ui/roledialog.ui \
     ui/optimizereditor.ui \
     ui/superlabor.ui
-RESOURCES += images.qrc
+RESOURCES += \
+    resources.qrc
 QMAKE_RESOURCE_FLAGS += -no-compress
